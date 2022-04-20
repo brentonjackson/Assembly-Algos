@@ -30,7 +30,8 @@ L2:	pop bx
 	add revName[esi],bx
 	inc esi
 	loop L2
-
+	
+INVOKE ExitProcess, 0
 
 main ENDP
 END main
